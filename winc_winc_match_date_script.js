@@ -52,7 +52,7 @@ for (let i = 0; i < questions.length; i++) {
     answer = answer.toUpperCase();
   } else if (i === 2 || i === 6 || i === 7) {
     while (isNaN(answer) || answer < 18) {
-      console.log("Please enter a valid number.");
+      console.log("Please enter a valid number (18+).");
       answer = prompt(questions[i]);
       answer = Number(answer);
     }
