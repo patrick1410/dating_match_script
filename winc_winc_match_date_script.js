@@ -129,7 +129,7 @@ console.log("");
 if (count === 0) {
   console.log("No match for u...");
 } else if (count === 1) {
-  console.log("You have a match!");
+  console.log(`You have ${count} match!`);
 } else {
   console.log(`You have ${count} matches!`);
 }
