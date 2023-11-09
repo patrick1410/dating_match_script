@@ -118,6 +118,7 @@ for (let i = 0; i < mockData.length; i++) {
     mockData[i].age <= user.max_age_interest
   ) {
     count++;
+    // console.log(mockData[i])
     console.log(
       `${mockData[i].first_name} ${mockData[i].last_name} (${mockData[i].age}) from ${mockData[i].location}`
     );
